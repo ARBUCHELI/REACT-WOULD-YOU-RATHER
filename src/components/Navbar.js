@@ -12,20 +12,20 @@ class Navbar extends Component {
 		const { authedUser, users } = this.props;
 		return (
 			<div className="ui pointing secondary menu" style={{ width: "90%", margin: "20px auto" }}>
-				<NavLink to="/" className="item" exact style={{ color: "white"; fontSize: "10px" }}>
+				<NavLink to="/" className="item" exact style={{ color: "white"; fontSize: "8px" }}>
 					Home
 				</NavLink>
 
-				<NavLink to="/add" className="item" exact style={{ color: "white" }}>
+				<NavLink to="/add" className="item" exact style={{ color: "white"; fontSize: "8px" }}>
 					New Question
 				</NavLink>
 
-				<NavLink to="/leaderboard" className="item" exact style={{ color: "white" }}>
+				<NavLink to="/leaderboard" className="item" exact style={{ color: "white"; fontSize: "8px" }}>
 					Leaderboard
 				</NavLink>
 
 				<div className="right menu" >
-					<span className="item" style={{ color: "white" }}>
+					<span className="item" style={{ color: "white"; fontSize: "8px" }}>
 						<img className="ui avatar image" src={users[authedUser].avatarURL} alt="" />
 						Hi {authedUser}
 					</span>
