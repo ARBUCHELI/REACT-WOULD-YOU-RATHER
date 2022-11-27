@@ -11,7 +11,7 @@ class Navbar extends Component {
 	render() {
 		const { authedUser, users } = this.props;
 		return (
-			<div className="ui pointing secondary menu" style={{ width: "90%", margin: "20px auto" }}>
+			<div className="ui pointing secondary menu" style={{ width: "70%", margin: "20px auto" }}>
 				<NavLink to="/" className="item" exact style={{ color: "white"; fontSize: "8px" }}>
 					Home
 				</NavLink>
