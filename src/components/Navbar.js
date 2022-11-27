@@ -11,21 +11,21 @@ class Navbar extends Component {
 	render() {
 		const { authedUser, users } = this.props;
 		return (
-			<div className="ui pointing secondary menu" style={{ width: "70%", margin: "20px auto" }}>
-				<NavLink to="/" className="item" exact style={{ color: "white"; fontSize: "8px" }}>
+			<div className="ui pointing secondary menu" style={{ width: "90%", margin: "20px auto" }}>
+				<NavLink to="/" className="item" exact style={{ color: "white" }}>
 					Home
 				</NavLink>
 
-				<NavLink to="/add" className="item" exact style={{ color: "white"; fontSize: "8px" }}>
+				<NavLink to="/add" className="item" exact style={{ color: "white" }}>
 					New Question
 				</NavLink>
 
-				<NavLink to="/leaderboard" className="item" exact style={{ color: "white"; fontSize: "8px" }}>
+				<NavLink to="/leaderboard" className="item" exact style={{ color: "white" }}>
 					Leaderboard
 				</NavLink>
 
 				<div className="right menu" >
-					<span className="item" style={{ color: "white"; fontSize: "8px" }}>
+					<span className="item" style={{ color: "white" }}>
 						<img className="ui avatar image" src={users[authedUser].avatarURL} alt="" />
 						Hi {authedUser}
 					</span>
