@@ -59,6 +59,19 @@ footer {
 	}
 }
 
+@media (max-width: 541px) {
+	.item {
+		font-size: 8.1px;
+	}
+	button.ui.red.button {
+		font-size: 8.1px;
+	}
+	footer {
+		font-size: 15px;
+	}
+}
+
+
 @media (max-width: 415px) {
 	.item {
 		font-size: 8.1px;
