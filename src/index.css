@@ -37,7 +37,20 @@ code {
 footer {
 	font-size: 20px;
 	margin-bottom: 3em;
-	margin-top: 3em;
+	margin-top: 18em;
+}
+
+@media (max-width: 1281px) {
+	.item {
+		font-size: 8.1px;
+	}
+	button.ui.red.button {
+		font-size: 8.1px;
+	}
+	footer {
+		font-size: 18px;
+		margin-top: 22em;
+	}
 }
 
 @media (max-width: 1025px) {
@@ -48,7 +61,21 @@ footer {
 		font-size: 8.1px;
 	}
 	footer {
+		font-size: 17px;
+		margin-top: 11em;
+	}
+}
+
+@media (max-width: 913px) {
+	.item {
+		font-size: 8.1px;
+	}
+	button.ui.red.button {
+		font-size: 8.1px;
+	}
+	footer {
 		font-size: 13px;
+		margin-top: 75em;
 	}
 }
 
@@ -60,6 +87,32 @@ footer {
 	.new-question-form {
 		width: 70%;
 		margin: 70px auto;
+	}
+}
+
+@media (max-width: 821px) {
+	.item {
+		font-size: 8.1px;
+	}
+	button.ui.red.button {
+		font-size: 8.1px;
+	}
+	footer {
+		font-size: 28px;
+		margin-top: 28em;
+	}
+}
+
+@media (max-width: 769px) {
+	.item {
+		font-size: 8.1px;
+	}
+	button.ui.red.button {
+		font-size: 8.1px;
+	}
+	footer {
+		font-size: 26px;
+		margin-top: 24em;
 	}
 }
 
@@ -82,7 +135,8 @@ footer {
 		font-size: 8.1px;
 	}
 	footer {
-		font-size: 15px;
+		font-size: 17px;
+		margin-top: 24em;
 	}
 }
 
@@ -95,7 +149,47 @@ footer {
 		font-size: 8.1px;
 	}
 	footer {
-		font-size: 15px;
+		font-size: 19px;
+		margin-top: 31em;
+	}
+}
+
+@media (max-width: 413px) {
+	.item {
+		font-size: 8.1px;
+	}
+	button.ui.red.button {
+		font-size: 8.1px;
+	}
+	footer {
+		font-size: 19px;
+		margin-top: 32em;
+	}
+}
+
+@media (max-width: 394px) {
+	.item {
+		font-size: 8.1px;
+	}
+	button.ui.red.button {
+		font-size: 8.1px;
+	}
+	footer {
+		font-size: 16px;
+		margin-top: 34em;
+	}
+}
+
+@media (max-width: 391px) {
+	.item {
+		font-size: 8.1px;
+	}
+	button.ui.red.button {
+		font-size: 8.1px;
+	}
+	footer {
+		font-size: 17px;
+		margin-top: 32em;
 	}
 }
 
@@ -108,6 +202,20 @@ footer {
 	}
 	footer {
 		font-size: 15px;
+		margin-top: 25em;
+	}
+}
+
+@media (max-width: 361px) {
+	.item {
+		font-size: 8.1px;
+	}
+	button.ui.red.button {
+		font-size: 8.1px;
+	}
+	footer {
+		font-size: 16px;
+		margin-top: 27em;
 	}
 }
 
@@ -120,5 +228,6 @@ footer {
 	}
 	footer {
 		font-size: 15px;
+		margin-top: 24em;
 	}
 }
