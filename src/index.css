@@ -37,6 +37,7 @@ code {
 footer {
 	font-size: 20px;
 	margin-bottom: 3em;
+	margin-top: 3em;
 }
 
 @media (max-width: 1025px) {
