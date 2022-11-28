@@ -95,3 +95,15 @@ footer {
 		font-size: 15px;
 	}
 }
+
+@media (max-width: 281px) {
+	.item {
+		font-size: 6.1px;
+	}
+	button.ui.red.button {
+		font-size: 6.1px;
+	}
+	footer {
+		font-size: 15px;
+	}
+}
