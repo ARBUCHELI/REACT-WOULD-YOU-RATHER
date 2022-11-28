@@ -40,10 +40,10 @@ footer {
 
 @media (max-width: 1025px) {
 	.item {
-		font-size: 10px;
+		font-size: 8.1px;
 	}
 	button.ui.red.button {
-		font-size: 10px;
+		font-size: 8.1px;
 	}
 	footer {
 		font-size: 10px;
